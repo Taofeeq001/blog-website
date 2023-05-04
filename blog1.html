@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./blog1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <div class="top-nav">
+            <div class="logo-container">
+                <div class="logo">
+                    <Span style="color: #ef3a5d; position: absolute; left: 0; font-size: 60px;">N</Span>
+                    <Span style="color: yellow; position: absolute; left: 30px; font-size: 60px;">E</Span>
+                    <span style="position:absolute; left: 10px ;top:40px;font-size: 12px;">aija</span>
+                    <span style="position:absolute; left: 58px ;font-size: 2vw;">xtract</span>
+                </div>
+            </div>
+            <button class="toggle"><svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-menu-down" viewBox="0 0 16 16">
+                <path d="M7.646.146a.5.5 0 0 1 .708 0L10.207 2H14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.793L7.646.146zM1 7v3h14V7H1zm14-1V4a1 1 0 0 0-1-1h-3.793a1 1 0 0 1-.707-.293L8 1.207l-1.5 1.5A1 1 0 0 1 5.793 3H2a1 1 0 0 0-1 1v2h14zm0 5H1v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zM2 4.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+              </svg></button>
+        </div>
+        <div class="navigation">
+            <ul class="left">
+                <li><a href="">Home</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="">Hausa</a></li>
+                <li><a href="">Nigeria</a></li>
+                <li><a href="">Politics</a></li>
+                <li><a href="">World</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">Entertainment</a></li>
+                <li><a href="">People</a></li>
+                <li><a href="">2023 Election</a></li>
+                <li><a href="">Sports</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="mobile-nav">
+        <ul class="left">
+            <li><a href="">Home</a></li>
+        </ul>
+        <ul class="right">
+            <li><a href="">Hausa</a></li>
+            <li><a href="#nigeria">Nigeria</a></li>
+            <li><a href="#politics">Politics</a></li>
+            <li><a href="#world">World</a></li>
+            <li><a href="#business">Business</a></li>
+            <li><a href="#entertainment">Entertainment</a></li>
+            <li><a href="#people">People</a></li>
+            <li><a href="#election">2023 Election</a></li>
+            <li><a href="#sports">Sports</a></li>
+        </ul>
+    </div>
+    <section>
+        <div class="social-media">
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+            </a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+                <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+              </svg>
+            </a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>
+            </a>
+        </div>
+        <div class="left-side">
+            <div class="apex">
+                <div class="top">
+                    <p><a href="">Home</a></p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                    <p><a href="">Politics</a></p>
+                </div>
+                <p><a href="">Politics</a></p>
+            </div>
+            <div class="hero2">
+                <div class="hero-content">
+                    <h1>2023 Election: Is INEC'S Head of ICT Tinubu's Boy? Fresh Details Emmerge</h1>
+                    <div class="hero-time">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                        </svg>
+                        <p>Monday, March 13, 2023 at 2:38pm . by Segun Adeyemi</p>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>Once again, the Independent National Electoral Commission (INEC) 's credibility has been questioned</li>
+                            <li>It was gathered that the current director of ICT for INEC, Femi Odubiyi, was formerly a commissioner in Lagos state</li>
+                            <li>This revelation was made known by a chieftain of the Peoples Democratic Party (PDP), Chief Olabode George</li>
+                        </ul>
+                    </div>
+                    <div class="pay-attention">
+                        <p><a href="">PAY ATTENTION: Donate to Legit Charity on Patreon. Your support matters!</p>
+                        <p>Chief Olabode George, a chieftain of the Peoples Democratic Party (PDP), has called for the dismissal of Femi Odubiyi, the director of ICT for the Independent National Electoral Commission (INEC).</p>
+                        <p>As reported by the Guardian newspaper, the former deputy national chairman of the PDP is seeking his removal based on the premise that he has affiliations with the President-elect, Bola Ahmed Tinubu</p>
+                    </div>
+                    <img src="./images/tinubu.jpg" alt="">
+                    <p>Professor Mahmood Yakubu presented Bola Ahmed Tinubu his certificate as president-elect. Photo: Asiwaju Bola Ahmed Tinubu</p>
+                    <p>Source: Facebook</p>
+                    <div>
+                        <h5>He revealed that Mr Odubiyi was once the commissioner for science and technology in Lagos state, where Tinubu calls the shot as the supreme leader and mentor to other governors who have ruled after him.</h5>
+                    </div>
+                    <div>
+                        <div class="pics">
+                            <img src="./obi pic.jpg" alt="">
+                            <div>
+                                <h6><span>RECOMMENDED FOR YOU</span></h6>
+                                <h5>WhatsApp chats leak as Nigerian lady elopes to school with father's favouri...</h5>
+                            </div>
+                        </div>
+                        <div>
+                            <p>George urged the INEC chairman, Professor Mahmood Yakubu, to explain to Nigerians why Odubiyi should be saddled with such a sensitive responsibility knowing that he once worked for the Lagos state government controlled by the ruling All Progressive Congress (APC).</p>
+                            <p>PAY ATTENTION: Share your outstanding story with our editors! Please reach us through info@corp.legit.ng!</p>
+                            <p>Meanwhile, George calls for immediate action from security agencies and relevant stakeholders to address the issue and ensure an excellent democratic electoral process at the gubernatorial polls.</p>
+                            <p>He said:</p>
+                            <p>“I call on all security apparatus of government to quickly wade into this matter by inviting Odubiyi to explain whatever role he has played, as well as tell Nigerians how he got into INEC ICT unit, being a commissioner in Lagos State.</p>
+                            <p>The masquerade must be unveiled. This unholy alliance that has pushed our country towards precipice must be thoroughly checked and nipped in the bud,”</p>
+                        </div>
+                        
+                    </div> 
+                    <div class="recommended">
+                        <div class="pics">
+                            <img src="./obi pic.jpg" alt="">
+                            <div>
+                                <h6>RECOMMENDED FOR YOU</h6>
+                                <h5>2023 Election: Obi opens up on motive towards Tinubu after loss at Presiden...</h5>
+                            </div>
+                        </div>
+                        <h3>Guber Election: INEC Releases Fresh Information on BVAS Availability, Plan for Result Transmission</h3>
+                        <p>Meanwhile, the approved reconfiguration of the Bimodal Voter Accreditation System will be concluded on Monday, March 13.</p>
+                        <p>The assurance was given to Nigerians by an official of the Independent National Electoral Commission.</p>
+                        <p>The official, who spoke on condition of anonymity, said the results for the 2023 governorship and state House of Assembly elections would be transmitted online.</p>
+                    </div>
+                    <div>
+                        <h3>Fact Emerges to Verify if INECs IReV Portal Shows Peter Obi Won 2023 Presidential Election in 19 States</h3>
+                        <p>In another development, the viral claim that Peter Obi won the 2023 presidential election in 19 states based on results uploaded on INEC’s IReV has been described as misleading.</p>
+                        <p>According to a report by Dubawa, a fact-checking organisation, results from polling units across Nigeria had yet to be completely uploaded on the IReV portal as of March 7.</p>
+                        <p>The report also found that the result uploaded by a Facebook user, which showed LP’s victory in about 18 states, including the FCT, was not from the IReV portal but from a poll conducted by Nextier.</p>
+                        <p>source: Legit.ng</p>
+                    </div>
+                    <div class="foot-design">
+                        <div class="msg">
+                            <svg xmlns="http://www.w3.org/2000/svg"  height="50" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                            </svg>
+                            <p>Be the first to get hottest news from our <br> Editor-in-Chief</p>
+                        </div>
+                        <div class="textbox">
+                            <input type="text" placeholder="Your Email Address">
+                            <button>SIGN UP</button>
+                        </div>
+                    </div>   
+                </div>                
+            </div>
+        </div>
+        <div class="right-side">
+            <h6>RECOMMENDED FOR YOU</h6>
+            <div>
+                <div>
+                    <h5>WhatApp chat leak as Nigerian lady flee to school with father's favourit...</h5>
+                    <div class="clock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                        </svg>
+                        <p>minutes</p>
+                    </div>
+                </div>    
+            </div>
+            <div>
+                <div>
+                    <h5>WhatApp chat leak as Nigerian lady flee to school with father's favourit...</h5>
+                    <div class="clock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                        </svg>
+                        <p>minutes</p>
+                    </div>
+                </div>    
+            </div>
+            <div>
+                <div>
+                    <h5>WhatApp chat leak as Nigerian lady flee to school with father's favourit...</h5>
+                    <div class="clock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                        </svg>
+                        <p>minutes</p>
+                    </div>
+                </div>    
+            </div>
+            <div>
+                <div>
+                    <h5>WhatApp chat leak as Nigerian lady flee to school with father's favourit...</h5>
+                    <div class="clock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                        </svg>
+                        <p>minutes</p>
+                    </div>
+                </div>    
+            </div>
+            <div>
+                <div>
+                    <h5>WhatApp chat leak as Nigerian lady flee to school with father's favourit...</h5>
+                    <div class="clock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                        </svg>
+                        <p>minutes</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="read-more">
+                <div>
+                    <h5>MORE ARTICLES FOR YOU</h5>
+                    <p>Read More</p>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>
+            </div>
+            <div class="latest-news">
+                <h6>LATEST</h6>
+                <div>
+                    <img src="./obi pic.jpg" alt="">
+                    <div>        
+                        <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                        <div>
+                            <div class="clock">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                </svg>
+                                <p>minutes</p>
+                            </div>
+                        </div>
+                    </div>   
+                    <div>
+                        <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                        <div>
+                            <div class="clock">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                </svg>
+                                <p>minutes</p>
+                            </div>
+                        </div>
+                        <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                        <div>
+                            <div class="clock">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                </svg>
+                                <p>minutes</p>
+                            </div>
+                        </div>
+                    </div>                 
+                </div>
+            </div>
+            <div>
+                <h6>TRENDING</h6>
+                <div>        
+                    <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                    <div>
+                        <div class="clock">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                </div>   
+                <div>
+                    <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                    <div>
+                        <div class="clock">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                </div>                 
+                <div>
+                    <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                    <div>
+                        <div class="clock">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h6>TOP STORY</h6>
+                <div>        
+                    <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                    <div>
+                        <div class="clock">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                </div>   
+                <div>
+                    <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                    <div>
+                        <div class="clock">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                </div>                 
+                <div>
+                    <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                    <div>
+                        <div class="clock">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                    <div>
+                        <div class="clock">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                </div>                 
+                <div>
+                    <h5> Old naira note: Presidency breaks silence, reveals Buhari's position on supreme...</h5>
+                    <div>
+                        <div class="clock">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Naija Extract</h2>
+        <div class="footer-content">
+            <div class="more-about">
+                <h4>MORE ABOUT OUR COMPANY</h4>
+                <div class="about-comp">
+                    <div class="about-1">
+                        <a href="">About Us</a>
+                        <a href="">Our Authors</a>
+                        <a href="">Media Mentions</a>
+                        <a href="">Contact us</a>
+                        <a href="">Our Manisfesto</a>
+                        <a href="">Advertise with us</a>
+                        <a href="">DCMA Removal</a>
+                    </div>
+                    <div class="about-1">
+                        <a href="">Privacy Policy</a>
+                        <a href="">Terms and Conditions</a>
+                        <a href="">Policies and Standards</a>
+                        <a href="">Categories</a>
+                        <a href="">Tags</a>
+                        <a href="">Legits.ng Charity</a>
+                        <a href="">Do not sell my Personal <br>Information</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social">
+                <h4>SOCIAL MEDIA</h4>
+                <div class="social-med">
+                    <div>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg>
+                        </a>
+                        <a href="">Facebook</a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                            </svg>
+                        </a>
+                        <a href="">Instagram</a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                            </svg>
+                        </a>
+                        <a href="">Twitter</a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-telegram" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                            </svg>
+                        </a>
+                        <a href="">Telegram</a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                            </svg>
+                        </a>
+                        <a href="">Youtube</a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-tiktok" viewBox="0 0 16 16">
+                                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                            </svg>
+                        </a>
+                        <a href="">Tiktok</a>
+                    </div>
+                </div>
+            </div>
+            <div class="language">
+                <H4>NEWS IN LANGUAGES</H4>
+                <div class="footer-lang">
+                    <a href="">Hausa</a>
+                    <a href="">Igbo</a>
+                    <a href="">Yoruba</a>
+                </div>
+            </div>
+            <div class="read-us">
+                <h4>READ US</h4>
+                <div>
+                    <div class="message">
+                        <svg xmlns="http://www.w3.org/2000/svg"  height="50" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                        </svg>
+                        <p>Be the first to get hottest news from our Editor <br>-in-Chief</p>
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="Your Email address">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        document.querySelector(".toggle").addEventListener("click", ()=>{
+        document.querySelector(".mobile-nav").classList.toggle("display")
+        })
+    </script>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

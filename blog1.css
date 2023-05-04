@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 60px;
+    gap: 20px;
+}
+section a{
+    text-decoration: none;
+    color: rgb(73, 70, 70);
+}
+.hero h1{
+    margin-bottom: 10px;
+}
+.hero-time{
+    display: flex;
+    gap: 10px;
+}
+.list{
+    margin-bottom: 20px;
+}
+.social-media{
+    display: flex;
+    margin-top: 27vh;
+    flex-direction: column;
+    width: 10%;
+    gap: 10px;
+    position: fixed;
+    left: 30px;
+}
+.social-media a{
+    color: blue;
+    width: 100px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 100;
+    margin-bottom: 20px;
+}
+.right-side{
+    display: flex;
+    margin-top: 24vh;
+    flex-direction: column;
+    width: 100%;
+}
+.latest-news img{
+    width: 100%;
+}
+.apex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+.top{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.hero2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.hero-content h5{
+    margin-bottom: 20px;
+}
+.hero2 img{
+    width: 100%
+}
+.list{
+    margin-bottom: 15px;
+}
+.pics{
+    display: flex;
+    gap: 20px;
+}
+.pics img{
+    width: 30%;
+}
+.right-side h6{
+    background-color: #ef3a5d;
+    padding: 10px ;
+}
+.read-more{
+    display: flex;
+    border: 2px solid green;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.foot-design{
+    background-color: #ef3a5d;
+    display: flex;
+    gap: 40px;
+    padding: 15px 20px;
+    
+}
+.msg{
+    display: flex;
+    gap: 20px;
+}
+.textbox{
+    display: flex;
+    height: 50px;
+}
+.textbox button{
+    background-color: yellow;
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 900px) {
+    section{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+    .social-media{
+        display: none;
+    }
+    .apex{
+        margin-top: 3vh;
+        padding: 0 35px;
+    }
+    .left-side{
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .right-side{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 0;
+    }
+    .foot-design{
+        width:100%;
+        flex-direction: column;
+        /* margin-bottom: 20px; */
+    }
+    .pics{
+        width: 100%;
+    }
+    .pics img{
+        width: 100%;
+    }
+}
